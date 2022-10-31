@@ -1,0 +1,3 @@
+#!/bin/bash
+
+g++ test.cpp -I ../Class_Table/ -L ../Class_Table/cmake-build-debug/ -l3lab.3 -lgtest -lgtest_main -pthread -o runtest
